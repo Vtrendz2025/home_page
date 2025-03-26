@@ -2,14 +2,13 @@
 
 import { HeroSection } from "@/app/Hero section/page";
 import { AboutSection } from "./About Section/page";
-import { Navbar } from "./navbar";
+import { Navbar } from "../components/navbar";
 
 export default function Home() {
-  return (
-    <>
-      <Navbar /> {/* Glass bg effect leke aana hai navbar mein, already daal rakha hai but its not working */}
-      <HeroSection />
-      <AboutSection />
-    </>
-  );
+	return (
+		<>
+			<Navbar /> <HeroSection />
+			<AboutSection />
+		</>
+	);
 }

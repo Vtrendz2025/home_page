@@ -1,15 +1,25 @@
+"use client";
+import { AboutCards } from "@/components/AboutCards";
+
 export const AboutSection = () => {
-  return (
-    <>
-      <div className="bg-black text-white">
-        <div>About Us</div>
-        <div>
-          VITrendz is a student-powered crew on a mission to make college life a
-          breeze! From fun and engaging content to study hacks and interactive
-          support, we&apos;ve got everything you need to ace life on campus. Whether
-          you&apos;re looking to chill or crush your studies, we&apos;ve got your back!
-        </div>
-      </div>
-    </>
-  );
+	return (
+		<>
+			<div
+				className="bg-black text-white p-10 flex flex-col items-center aboutGradient "
+				id="AboutSection"
+			>
+				<div className="font-bold text-3xl pt-20">About Us</div>
+				<div className="text-center text-lg mt-5">
+					VITrendz is a student-powered crew on a mission to make college life a
+					breeze! From fun and engaging content to study hacks and interactive
+					support, we&apos;ve got everything you need to ace life on campus.
+					Whether you&apos;re looking to chill or crush your studies, we&apos;ve
+					got your back!
+				</div>
+				<div>
+					<AboutCards />
+				</div>
+			</div>
+		</>
+	);
 };
