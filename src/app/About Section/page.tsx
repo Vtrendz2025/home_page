@@ -5,10 +5,10 @@ export const AboutSection = () => {
 	return (
 		<>
 			<div
-				className="bg-black text-white p-10 flex flex-col items-center aboutGradient "
+				className="bg-black text-white p-10 flex flex-col items-center aboutGradient sm:h-fit lg:h-screen"
 				id="AboutSection"
 			>
-				<div className="font-bold text-3xl pt-20">About Us</div>
+				<div className="font-bold text-5xl pt-20">About Us</div>
 				<div className="text-center text-lg mt-5">
 					VITrendz is a student-powered crew on a mission to make college life a
 					breeze! From fun and engaging content to study hacks and interactive
