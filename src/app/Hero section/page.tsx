@@ -1,9 +1,9 @@
 import { HeroSectionBackground } from "./hero-section";
 
 export const HeroSection = () => {
-  return (
-    <>
-      <HeroSectionBackground />
-    </>
-  );
+	return (
+		<div className="overflow-hidden">
+			<HeroSectionBackground />
+		</div>
+	);
 };
