@@ -8,7 +8,7 @@ export function ContactSectionBackground() {
 	return (
 		<BackgroundGradientAnimation className="h-fit z-50">
 			<footer className="h-fit mt-28 z-100">
-				<div className="max-w-3xl mx-auto bg-gray-500/60 backdrop-blur-lg z-100 rounded-2xl p-8 shadow-lg">
+				<div className="max-w-3xl mx-auto bg-gray-500/60 backdrop-blur-lg z-100 rounded-2xl p-8 shadow-lg ">
 					<div className="flex items-center justify-around space-x-6 mb-8">
 						<div className="logo-container bg-black rounded-2xl p-4 mt-4 flex items-center justify-center">
 							<Image
