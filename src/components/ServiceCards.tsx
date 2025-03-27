@@ -7,25 +7,37 @@ export function ServiceCards() {
 			title: "FFCS Planner",
 			button: "Check it out",
 			site: "https://ffcs.vitrendz.com/",
-			src: "https://images.unsplash.com/photo-1494806812796-244fe51b774d?q=80&w=3534&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+			src: "/FFCS.jpg",
+		},
+		{
+			title: "Student Feedback System",
+			button: "Check it out",
+			site: "https://feedback.vitrendz.com/",
+			src: "/Feedback.jpg",
 		},
 		{
 			title: "CGPA Calculator",
 			button: "Check it out",
 			site: "https://calculator.vitrendz.com/",
-			src: "https://images.unsplash.com/photo-1518710843675-2540dd79065c?q=80&w=3387&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-		},
-		{
-			title: "Hostel Review",
-			button: "Check it out",
-			site: "https://hostel.vitrendz.com/",
-			src: "https://images.unsplash.com/photo-1590041794748-2d8eb73a571c?q=80&w=3456&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+			src: "/CGPA.jpg",
 		},
 		{
 			title: "Roommate Finder",
 			button: "Check it out",
 			site: "https://roommate.vitrendz.com/",
-			src: "https://images.unsplash.com/photo-1679420437432-80cfbf88986c?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+			src: "Roommate.jpg",
+		},
+		{
+			title: "Resources",
+			button: "Check it out",
+			site: "https://resources.vitrendz.com/",
+			src: "Resources.jpg",
+		},
+		{
+			title: "Travel Mate",
+			button: "Check it out",
+			site: "https://travelmate.vitrendz.com/",
+			src: "Travel.jpg",
 		},
 	];
 	return (

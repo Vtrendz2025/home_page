@@ -1,10 +1,11 @@
 "use client";
+
+import { ContactSectionBackground } from "./contact-section-background";
+
 export const ContactSection = () => {
 	return (
-		<>
-			<div id="ContactSection">
-				<h1 className="text-center">Contact Section</h1>
-			</div>
-		</>
+		<div className="overflow-hidden" id="ContactSection">
+			<ContactSectionBackground />
+		</div>
 	);
 };
