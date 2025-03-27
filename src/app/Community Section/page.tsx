@@ -1,10 +1,18 @@
+import { CommunityTabs } from "@/components/CommunityTabs";
+import { AuroraBackground } from "@/components/ui/aurora-background";
+
 export const CommunitySection = () => {
 	return (
 		<>
-			<div id="CommunitySection">
-				<h1 className="text-center">Community Section</h1>
-				{/* Either you can use "Sticky Scroll Reveal" or "Tabs"  */}
-			</div>
+			<AuroraBackground
+				className="h-fit p-10 pt-28 pb-20 w-full"
+				id="CommunitySection"
+			>
+				<h1 className="text-center text-5xl text-white font-bold -mb-20">
+					Our Community
+				</h1>
+				<CommunityTabs />
+			</AuroraBackground>
 		</>
 	);
 };

@@ -1,7 +1,5 @@
 @import "tailwindcss";
 
-@import "tailwindcss";
-
 @theme inline {
 	--animate-first: moveVertical 30s ease infinite;
 	--animate-second: moveInCircle 20s reverse infinite;
@@ -46,6 +44,28 @@
 	}
 }
 
+@theme inline {
+	--animate-aurora: aurora 60s linear infinite;
+	@keyframes aurora {
+		from {
+			background-position: 50% 50%, 50% 50%;
+		}
+		to {
+			background-position: 350% 50%, 350% 50%;
+		}
+	}
+}
+
+.no-visible-scrollbar {
+	scrollbar-width: none;
+	-ms-overflow-style: none;
+	-webkit-overflow-scrolling: touch;
+}
+
+.no-visible-scrollbar::-webkit-scrollbar {
+	display: none;
+}
+
 .glass {
 	background: linear-gradient(
 		135deg,
@@ -62,6 +82,12 @@
 }
 
 #card:hover {
+	transform: translateY(-2px);
+	transition: all 0.3s ease;
+}
+
+.contactSectionLinks:hover {
+	text-decoration: underline;
 	transform: translateY(-2px);
 	transition: all 0.3s ease;
 }
