@@ -91,3 +91,23 @@
 	transform: translateY(-2px);
 	transition: all 0.3s ease;
 }
+
+/* CSS Animation for Gradient Background */
+@keyframes gradient-animation {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+/* Tailwind Approach */
+.animated-gradient {
+	background: linear-gradient(135deg, #8a2be2, #ff00ff, #1e90ff, #00bfff);
+	background-size: 400% 400%;
+	animation: gradient-animation 20s ease infinite;
+}
