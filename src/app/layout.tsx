@@ -14,9 +14,6 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
 	title: "VITrendz",
-	icons: {
-		icon: "/favicon.png",
-	},
 	description: "Our description",
 };
 
