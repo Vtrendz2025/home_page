@@ -2,6 +2,8 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { footerServicesLinks } from "@/lib/links";
+import { footerCommunityLinks } from "@/lib/links";
 import { BackgroundGradientAnimation } from "../../components/ui/gradient-bg";
 
 export function ContactSectionBackground() {
@@ -40,20 +42,15 @@ export function ContactSectionBackground() {
 								Services
 							</h3>
 							<div className="grid grid-cols-2 md:grid-cols-3 gap-3">
-								{[
-									"Student Feedback form",
-									"GPA Calculation",
-									"FFCS Planner",
-									"Travel Mate",
-									"Roommate",
-									"Resources",
-								].map((service, index) => (
+								{footerServicesLinks.map(({ name, site }) => (
 									<Link
-										key={index}
-										href={`/${service.toLowerCase().replace(/\s+/g, "-")}`}
+										key={site}
+										href={site}
+										target="_blank"
+										rel="noopener noreferrer"
 										className="contactSectionLinks hover:text-purple-300 transition-colors"
 									>
-										{service}
+										{name}
 									</Link>
 								))}
 							</div>
@@ -64,19 +61,17 @@ export function ContactSectionBackground() {
 								Community
 							</h3>
 							<div className="grid grid-cols-2 md:grid-cols-3 gap-3">
-								{["Instagram", "Youtube", "Telegram", "LinkedIn"].map(
-									(platform, index) => (
-										<Link
-											key={index}
-											href={`#${platform.toLowerCase()}`}
-											target="_blank"
-											rel="noopener noreferrer"
-											className="contactSectionLinks cursor-pointer hover:text-purple-300 transition-colors"
-										>
-											{platform}
-										</Link>
-									)
-								)}
+								{footerCommunityLinks.map(({ name, site }) => (
+									<Link
+										key={site}
+										href={site}
+										target="_blank"
+										rel="noopener noreferrer"
+										className="contactSectionLinks cursor-pointer hover:text-purple-300 transition-colors"
+									>
+										{name}
+									</Link>
+								))}
 							</div>
 						</div>
 					</div>
