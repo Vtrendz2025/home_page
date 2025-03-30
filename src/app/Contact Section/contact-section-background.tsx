@@ -10,24 +10,24 @@ export function ContactSectionBackground() {
 	return (
 		<BackgroundGradientAnimation className="h-fit z-40">
 			<footer className="h-fit mt-28 z-50">
-				<div className="max-w-3xl mx-auto bg-gray-500/60 backdrop-blur-lg z-50 rounded-2xl p-8 shadow-lg ">
-					<div className="flex items-center justify-around space-x-6 mb-8">
-						<div className="logo-container bg-black rounded-2xl p-4 mt-4 flex items-center justify-center">
+				<div className="max-w-3xl mx-auto bg-gray-500/60 backdrop-blur-lg z-50 rounded-2xl p-8 shadow-lg relative">
+					<div className="flex items-center justify-around space-x-6 mb-8 z-50">
+						<div className="logo-container bg-black rounded-2xl p-4 mt-4 flex items-center justify-center z-50">
 							<Image
 								src="/ContactLogo.jpg"
 								alt="VITrendz Logo"
 								width={180}
 								height={180}
-								className="logo-image"
+								className="logo-image z-50"
 							/>
 						</div>
-						<div className="text-center">
-							<h2 className="text-3xl font-bold text-white connect-title">
+						<div className="text-center z-50">
+							<h2 className="text-3xl font-bold text-white connect-title z-50">
 								Let&apos;s Connect
 							</h2>
 							<Link
 								href="mailto:help@vitrendz.tech"
-								className="text-2xl text-white underline"
+								className="text-2xl text-white underline z-50"
 							>
 								help@vitrendz.tech
 							</Link>
