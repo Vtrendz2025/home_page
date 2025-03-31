@@ -15,7 +15,30 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
 	title: "VITrendz",
-	description: "Our description",
+	description:
+		"VITrendz, Your go-to resource hub for VIT college students featuring free academic tools like FFCS planner, CGPA calculator, and more to simplify campus life.",
+	keywords:
+		"VIT, VIT Vellore, FFCS planner, CGPA calculator, Resources, Hostels, Roommate, Vtrendz, VITrendz, FFCS, VIT FFCS, VIT CGPA, VIT Resources, VIT Hostels, VIT Roommate, Feedback, Student feedback",
+	authors: [{ name: "VTech team" }],
+	creator: "VTech Team",
+	publisher: "VITrendz",
+	formatDetection: {
+		email: false,
+		address: false,
+		telephone: false,
+	},
+	metadataBase: new URL("https://vitrendz.in"),
+	alternates: {
+		canonical: "/",
+	},
+	viewport: {
+		width: "device-width",
+		initialScale: 1,
+	},
+	robots: {
+		index: true,
+		follow: true,
+	},
 };
 
 export default function RootLayout({
