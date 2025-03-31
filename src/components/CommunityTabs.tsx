@@ -10,7 +10,7 @@ export function CommunityTabs() {
 			title: "Instagram",
 			value: "Instagram",
 			content: (
-				<div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-blue-500 to-pink-500">
+				<div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
 					<p>Instagram</p>
 					<InstaContent />
 				</div>
@@ -20,7 +20,7 @@ export function CommunityTabs() {
 			title: "Youtube",
 			value: "Youtube",
 			content: (
-				<div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-blue-500 to-pink-500">
+				<div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
 					<p>Youtube</p>
 					<YoutubeContent />
 				</div>
@@ -30,17 +30,27 @@ export function CommunityTabs() {
 			title: "LinkedIn",
 			value: "LinkedIn",
 			content: (
-				<div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-blue-500 to-pink-500">
+				<div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
 					<p>LinkedIn</p>
 					<LinkedInContent />
 				</div>
 			),
 		},
+		// {
+		// 	title: "Discord",
+		// 	value: "Discord",
+		// 	content: (
+		// 		<div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
+		// 			<p>Discord</p>
+		// 			<DiscordContent />
+		// 		</div>
+		// 	),
+		// },
 		{
 			title: "Telegram",
 			value: "Telegram",
 			content: (
-				<div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-blue-500 to-pink-500">
+				<div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
 					<p>Telegram</p>
 					<TelegramContent />
 				</div>
