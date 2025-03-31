@@ -3,16 +3,16 @@ import { CommunityTabs } from "@/components/CommunityTabs";
 
 export const CommunitySection = () => {
 	return (
-		<>
+		<div id="CommunitySection" className="h-fit p-10 pt-28 pb-20 w-full">
 			{/* <AuroraBackground
 				className="h-fit p-10 pt-28 pb-20 w-full"
-				id="CommunitySection"
+				
 			> */}
-				<h1 className="text-center text-5xl text-white bg-black font-bold -mb-20 mt-20">
-					Our Community
-				</h1>
-				<CommunityTabs />
+			<h1 className="text-center text-5xl text-white bg-black font-bold -mb-20">
+				Our Community
+			</h1>
+			<CommunityTabs />
 			{/* </AuroraBackground> */}
-		</>
+		</div>
 	);
 };
