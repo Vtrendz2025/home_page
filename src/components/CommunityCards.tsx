@@ -15,7 +15,7 @@ export function CommunityCards() {
 				"College Life, Uncut. Hostel chaos, fest vlogs, late-night food runs — it's all here. Our YouTube dives into what being a student at VIT really feels like. If you've ever said “Bro, we should totally vlog this,” we probably already did. Hit subscribe and relive the madness.",
 			name: "Youtube",
 			designation: "@vitrendz",
-			src: "/youtube.png",
+			src: "/image.png",
 			site: "https://www.youtube.com/channel/UCmAwtdi2YTCA_ifMlx0yIDA",
 		},
 		{
