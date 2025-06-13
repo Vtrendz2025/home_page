@@ -1,9 +1,5 @@
-import { HeroSectionBackground } from "./hero-section";
+import { HeroSection } from "@/components/sections/HeroSection";
 
-export const HeroSection = () => {
-	return (
-		<div className="overflow-hidden">
-			<HeroSectionBackground />
-		</div>
-	);
-};
+export default function HeroPage() {
+	return <HeroSection />;
+}
