@@ -101,6 +101,8 @@ const Slide = ({ slide, index, current, handleSlideClick }: SlideProps) => {
 						}}
 						alt={title}
 						src={src}
+						width={500}
+						height={500}
 						onLoad={imageLoaded}
 						loading="eager"
 						decoding="sync"
