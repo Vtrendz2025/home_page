@@ -26,10 +26,10 @@ export function ContactSectionBackground() {
 								Let&apos;s Connect
 							</h2>
 							<Link
-								href="mailto:tech.vitrendz@gmail.com"
+								href="mailto:help@vitrendz.tech"
 								className="text-2xl text-white underline z-50"
 							>
-								tech.vitrendz@gmail.com
+								help@vitrendz.tech
 							</Link>
 						</div>
 					</div>
